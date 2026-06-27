@@ -1,0 +1,31 @@
+# Core data stack
+numpy>=1.24
+pandas>=2.0
+scikit-learn>=1.3
+
+# Gradient boosting models
+xgboost>=2.0
+catboost>=1.2
+
+# Web framework
+flask>=3.0
+
+# Utilities
+dvc>=3.0          # optional: for data versioning
+python-dotenv>=1.0
+
+# Notebook / EDA
+jupyter>=1.0
+matplotlib>=3.7
+seaborn>=0.13
+plotly>=5.18
+catboost
+flask
+numpy
+pandas
+scikit-learn
+xgboost
+flask
+numpy
+pandas
+scikit-learn

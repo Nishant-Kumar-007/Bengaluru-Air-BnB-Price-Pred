@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Error — Bengaluru Airbnb Predictor</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+<header class="site-header">
+  <div class="header-inner">
+    <span class="logo">🏠 Bengaluru Airbnb Price Predictor</span>
+  </div>
+</header>
+<main class="container">
+  <div class="alert alert-error">
+    <strong>Error</strong><br />
+    {{ error_message }}
+  </div>
+  <div class="submit-row">
+    <a href="/" class="btn-predict" style="display:inline-block;text-decoration:none;">← Back to Form</a>
+  </div>
+</main>
+</body>
+</html>
