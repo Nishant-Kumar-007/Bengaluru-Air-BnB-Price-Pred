@@ -10,21 +10,6 @@ Bengaluru listings, retrained on fresh data from
 
 ---
 
-## What changed from the original repo
-
-| Aspect | Original (Kaggle) | This version (DoorStep / Bengaluru) |
-|--------|-------------------|--------------------------------------|
-| Dataset | Multi-city Kaggle CSV (~74k rows) | Bengaluru-only, 9 654 rows, 68 cols |
-| Currency | USD | **INR (₹)** |
-| Target | `log_price` | `price` (raw INR) |
-| `city` feature | NYC, Chicago, LA, DC, SF, Boston | **Removed** (single city) |
-| `bed_type` feature | Air bed / Futon / Real Bed… | **Removed** (not in new schema) |
-| `cancellation_policy` | strict / moderate / flexible | **Removed** (not in new schema) |
-| `cleaning_fee` | separate column | **Removed** (bundled in Airbnb price) |
-| New features | — | `neighbourhood`, `minimum_nights`, `availability_365`, `review_scores_location` |
-| Form UI | US-centric | **Bengaluru neighbourhoods + ₹ output** |
-
----
 
 ## Project structure
 
