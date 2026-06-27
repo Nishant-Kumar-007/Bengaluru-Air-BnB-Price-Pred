@@ -4,13 +4,7 @@ End-to-end ML pipeline that predicts **nightly Airbnb prices in INR** for
 Bengaluru listings, retrained on fresh data from
 **[DoorStep Analytics](https://doorstepanalytics.com/report?location=Bengaluru&country=India)**.
 
-> This project is a full rework of the original multi-city Kaggle-dataset repo.
-> The old dataset (US cities, USD prices, log-price target) has been replaced by
-> a Bengaluru-specific dataset (INR prices, direct price target).
-
 ---
-
-
 ## Project structure
 
 ```
@@ -145,4 +139,3 @@ The best model by R² on the test set is persisted automatically.
 
 * Dataset — [DoorStep Analytics](https://doorstepanalytics.com/) /
   [InsideAirbnb](https://insideairbnb.com/)
-* Original project structure — [KalyanM45/End-to-End-Airbnb-Price-Prediction](https://github.com/KalyanM45/End-to-End-Airbnb-Price-Prediction)
