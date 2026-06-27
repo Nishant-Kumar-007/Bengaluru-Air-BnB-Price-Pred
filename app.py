@@ -1,10 +1,3 @@
-"""
-Airbnb Price Predictor — Bengaluru
-===================================
-Flask web app for predicting Airbnb nightly prices (INR) for Bengaluru listings.
-Dataset source: https://doorstepanalytics.com/report?location=Bengaluru&country=India
-"""
-
 from flask import Flask, request, render_template
 from src.Airbnb.pipelines.Prediction_Pipeline import CustomData, PredictPipeline
 
